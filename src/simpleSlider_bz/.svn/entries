@@ -1,0 +1,70 @@
+10
+
+dir
+0
+http://192.168.1.39/subversion/strelow/trunk/system/modules/simpleSlider_bz
+http://192.168.1.39/subversion/strelow
+add
+
+
+
+
+
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+6315cb1a-d86b-47a9-af83-8da955ce1057
+
+SimpleSlider_bz.php
+file
+
+
+
+add
+
+config
+dir
+
+
+
+add
+
+dca
+dir
+
+
+
+add
+
+html
+dir
+
+
+
+add
+
+languages
+dir
+
+
+
+add
+
+templates
+dir
+
+
+
+add
+
