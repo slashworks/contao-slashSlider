@@ -10,7 +10,7 @@
 $GLOBALS['TL_DCA']['tl_content']['palettes']['__selector__'][] 	= 'simpleSliderBzType';
 $GLOBALS['TL_DCA']['tl_content']['palettes']['simpleSlider'] = '{type_legend},type,simpleSliderBzType;';
 $GLOBALS['TL_DCA']['tl_content']['palettes']['simpleSliderSetbegin'] = '{type_legend},type,simpleSliderBzType;headline,simpleSliderBzName,simpleSliderBzConfig';
-$GLOBALS['TL_DCA']['tl_content']['palettes']['simpleSliderSetend'] = '{type_legend},type,simpleSliderBzType,simpleSliderBzRelation;';
+$GLOBALS['TL_DCA']['tl_content']['palettes']['simpleSliderSetend'] = '{type_legend},type,simpleSliderBzType;';
 $GLOBALS['TL_DCA']['tl_content']['palettes']['simpleSliderSetImage'] = '{type_legend},type,simpleSliderBzType;singleSRC,alt,title,size,imagemargin,imageUrl,fullsize,caption';
 
 $GLOBALS['TL_DCA']['tl_content']['fields']['simpleSliderBzName'] = array
@@ -40,17 +40,6 @@ $GLOBALS['TL_DCA']['tl_content']['fields']['simpleSliderBzConfig'] = array
     'inputType'               => 'textarea',
     'eval'                    => array('helpwizard'=>true),
     'explanation'             => 'simpleSliderBzConfig'
-);
-
-$GLOBALS['TL_DCA']['tl_content']['fields']['simpleSliderBzRelation'] = array
-(
-    'label'                   => &$GLOBALS['TL_LANG']['tl_content']['simpleSliderBzRelation'],
-    'exclude'                 => true,
-    'filter'                  => true,
-    'inputType'               => 'select',
-    'options_callback'        => array('tl_simpleSliderBZ', 'getsimpleSliderBZStartPoints'),
-    'reference'               => &$GLOBALS['TL_LANG']['CTE'],
-    'eval'                    => array('chosen'=>true, 'submitOnChange'=>true)
 );
 
 class tl_simpleSliderBZ extends Backend
