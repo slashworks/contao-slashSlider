@@ -1,5 +1,6 @@
 
-<section class="<?php echo $this->class; ?> block"<?php echo $this->cssID; ?>
+<section class="<?php echo $this->class; ?> block"<?php echo $this->cssID; ?>>
 <?php if ($this->headline): ?>
     <<?php echo $this->hl; ?>><?php echo $this->headline; ?></<?php echo $this->hl; ?>>
 <?php endif; ?>
+<div class="inner-slideswrap" id="<?php echo $this->counterId; ?>">
