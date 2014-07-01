@@ -1,6 +1,13 @@
-contao-spinSlider_bz
+contao-slashSlider
 ====================
 
-A Slider for contao. Newest version see branch cto3
+A mootools based Slider module for contao.
 
-This module has a dependency to the boziHelpers see repo
+Features:
+
+- Responsive
+- Multiple effects
+- Extentible
+- Easy back end handling
+
+
