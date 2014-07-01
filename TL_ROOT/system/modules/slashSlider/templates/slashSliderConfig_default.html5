@@ -1,0 +1,24 @@
+<?php $GLOBALS['TL_CSS'][] = 'files/slashSlider/default/style.css' ?>
+
+<script>
+    window.addEvent('domready', function() {
+        document.id('<?php echo $this->sliderId; ?>').spin({
+            //transition: "horizontal-push",//fade, horizontal-slide, vertical-slide, horizontal-push
+            //transitionOption: {transition:"linear",duration:600},
+            //timer: true,// true or false to have the timer
+            //advanceSpeed: 4000,// if timer is enabled, time between transitions
+            //pauseOnHover: false,// if you hover pauses the slider
+            //startClockOnMouseOut: true,// if clock should start on MouseOut
+            //startClockOnMouseOutAfter: 1000,// how long after MouseOut should the timer start again
+            //directionalNav: true,// manual advancing directional navs
+            //captions: true,// do you want captions?
+            //captionTransition: "fade",//fade, none
+            //captionTransitionOption: {transition:"linear",duration:600},// fade, slideOpen, none
+            //bullets: true,// true or false to activate the bullet navigation
+            //bulletThumbs: false,// thumbnails for the bullets
+            //bulletThumbLocation: '',// location from this file where thumbs will be
+            //afterSlideChange: function(){}// empty function
+            useNav: <?php echo ($this->useNav) ? '".slider-nav-text"' : 'false'; ?>
+        });
+    });
+</script>";

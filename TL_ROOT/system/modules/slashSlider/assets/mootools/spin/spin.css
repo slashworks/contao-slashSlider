@@ -1,0 +1,56 @@
+/* CSS for jQuery spin Plugin 1.2.3
+ * www.ZURB.com/playground
+ * Copyright 2010, ZURB
+ * Free to use under the MIT license.
+ * http://www.opensource.org/licenses/mit-license.php
+
+
+
+
+
+
+
+
+/* CONTAINER
+   ================================================== */
+
+.spin-wrapper {
+    width: 1px;
+    height: 1px;
+    position: relative; }
+
+.spin {
+    width: 1px;
+    height: 1px;
+    position: relative;
+    overflow: hidden }
+
+.spin>img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: none; }
+
+.spin>a {
+    border: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    line-height: 0;
+    display: none; }
+
+.spin>div {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.inner-slideswrap                               { overflow: hidden; }
+
+.inner-slideswrap>img,
+.inner-slideswrap>div,
+.inner-slideswrap>a                             { display: none; }
+
+/* Note: If your slider only uses content or anchors, you're going to want to put the width and height declarations on the ".spin>div" and "div.spin>a" tags in addition to just the .spin-wrapper */

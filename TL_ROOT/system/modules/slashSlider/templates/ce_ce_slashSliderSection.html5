@@ -1,0 +1,4 @@
+<?php if(!$this->isFirst): ?>
+    </div>
+<?php endif; ?>
+    <div class="<?php echo $this->class ?> simpleslider-section">

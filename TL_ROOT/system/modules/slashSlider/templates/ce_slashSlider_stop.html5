@@ -1,0 +1,14 @@
+<?php if($this->hasSections): ?>
+    </div>
+<?php endif; ?>
+    </div>
+</section>
+<?php if($this->sliderNav): ?>
+    <?php $c = 0; ?>
+    <ul class="slider-nav-text">
+        <?php foreach($this->sliderNav as $item): ?>
+            <li class="slidenavitem-<?php echo $c ?><?php if($item['cssClass']) echo ' '.$item['cssClass'] ?>"><?php echo $item['title'] ?></li>
+            <?php $c++; ?>
+        <?php endforeach; ?>
+    </ul>
+<?php endif; ?>
