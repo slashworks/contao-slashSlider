@@ -21,4 +21,4 @@
             useNav: <?php echo ($this->useNav) ? '".slider-nav-text"' : 'false'; ?>
         });
     });
-</script>";
+</script>
