@@ -29,4 +29,4 @@
  */
 
 $GLOBALS['TL_CTE']['images']['slashSlider'] = 'slashworks\SlashSlider';
-$GLOBALS['TL_CTE']['images']['slashSliderrSection'] = 'slashworks\SlashSliderSection';
+$GLOBALS['TL_CTE']['images']['slashSliderSection'] = 'slashworks\SlashSliderSection';
