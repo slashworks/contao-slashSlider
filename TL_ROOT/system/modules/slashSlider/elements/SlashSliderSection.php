@@ -48,7 +48,7 @@ class SlashSliderSection extends \ContentElement
             $this->Template->isFirst = false;
             $this->Template->isLast = false;
 
-            if($GLOBALS['simpleSlider'][$this->pid]['section'] === 1)
+            if($GLOBALS['slashSlider'][$this->pid]['section'] === 1)
 
             {
 
